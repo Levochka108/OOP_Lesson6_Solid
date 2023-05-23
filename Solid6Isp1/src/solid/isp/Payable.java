@@ -1,7 +1,5 @@
 package solid.isp;
 
-public interface Payable {
-    void payWebMoney(int amount);
-    void payCreditCard(int amount);
+public interface Payable extends PayableTerminal{
     void payPhoneNumber(int amount);
 }

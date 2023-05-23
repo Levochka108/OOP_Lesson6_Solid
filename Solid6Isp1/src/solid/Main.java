@@ -13,6 +13,6 @@ public class Main {
         TerminalPaymentService terminalService = new TerminalPaymentService();
         terminalService.payWebMoney(10);
         terminalService.payCreditCard(10);
-        terminalService.payPhoneNumber(10);
+
     }
 }

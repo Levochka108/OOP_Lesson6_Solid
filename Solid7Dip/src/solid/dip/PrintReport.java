@@ -2,7 +2,8 @@ package solid.dip;
 
 import java.util.List;
 
-public class PrintReport {
+public class PrintReport implements ToPrint {
+    @Override
     public void output(List<ReportItem> items) {
         System.out.println("Output to printer");
         for (ReportItem item : items) {

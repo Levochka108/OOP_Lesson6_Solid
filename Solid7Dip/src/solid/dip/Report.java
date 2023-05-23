@@ -13,8 +13,7 @@ public class Report{
         items.add(new ReportItem("Second", (float)6));
     }
 
-    public void output(){
-        PrintReport reportPrint = new PrintReport();
+    public void output(ToPrint reportPrint){
         reportPrint.output(items);
     }
 }
