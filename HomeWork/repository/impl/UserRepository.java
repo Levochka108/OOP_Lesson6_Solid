@@ -13,10 +13,11 @@ public class UserRepository implements GBRepository<User, Long> {
     private final UserMapper mapper;
     private final FileOperation operation;
 
-    public UserRepository(UserMapper mapper, FileOperation operation) {
-        this.mapper = mapper;
+    public UserRepository(FileOperation operation) {
+        this.mapper = new UserMapper();
         this.operation = operation;
     }
+
     @Override
     public User create(User user) {
         List<User> users = findAll();

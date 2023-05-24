@@ -8,7 +8,8 @@ public class UserMapper implements Mapper<User, String> , Numeric {
 
     @Override
     public String toInput(User user) {
-        return String.format("%s,%s,%s,%s", user.getId(), user.getFirstName(), user.getLastName(), user.getPhone());
+        String format = String.format("%s,%s,%s,%s", user.getId(), user.getFirstName(), user.getLastName(), user.getPhone(), user.getCreationDateTime());
+        return format;
     }
 
     @Override

@@ -5,44 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/doa/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/mapper/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/mapper/impl/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/reports/UserReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/repository/GBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/repository/impl/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/save/Savers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/ShowConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/ShowMainConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/ViewConsoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/base/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/base/ListView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/base/ModelForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/base/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/base/ViewAtInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/base/ViewConsoleItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/view/oldview/base/ViewerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/OrderAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/PayableTerminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/ToPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/controller/UserClean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/controller/UserShowInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/controller/UserUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/util/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/util/DBController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/util/DatabaseSeeder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/view/ActionPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/view/Commander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/view/MainUserView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Persister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/OrderCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/OrderCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/FactoryOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/FactoryOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/OrderBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid5Lsp2/src/solid/lsp/OrderBonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid6Isp1/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/Payable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/TerminalPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid6Isp1/src/solid/isp/TerminalPaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/PrintReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/PrintReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/doa/impl/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/doa/impl/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/mapper/impl/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/mapper/impl/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/out/production/HomeWork/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/out/production/HomeWork/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/out/production/HomeWork/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/out/production/HomeWork/HomeWork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/out/production/HomeWork/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/out/production/HomeWork/Persister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/out/production/HomeWork/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/reports/UserReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/repository/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/repository/impl/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solid/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/model/Persister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solid/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/reports/UserReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/save/Savers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/view/ShowConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/view/ShowMainConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/view/ViewConsoleMenu.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,30 +48,38 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2IXyjlpR5Wiiy0oCtofHfRCnxiw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="controller" />
+      <recent name="view" />
       <recent name="" />
       <recent name="solid.dip" />
     </key>
@@ -101,5 +105,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/HomeWork/repository/GBRepository.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
